@@ -1,0 +1,273 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url(./sahara_desert.jpg);
+  background-size: cover;
+}
+
+nav {
+  width: 100%;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-right: 120px;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+ul li a {
+  text-decoration: none;
+  font-size: 13px;
+  color: whitesmoke;
+}
+
+.logo img {
+  height: 50px;
+  margin-left: 100px;
+  margin-right: 500px;
+}
+
+.menu img {
+  height: 28px;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 31%;
+  justify-content: space-between;
+  height: 75vh;
+  float: right;
+  margin-right: 150px;
+}
+
+.card {
+  width: 180px;
+  height: 200px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 7px;
+  box-shadow: 0 0 1px 0px brown;
+}
+
+.card:hover {
+  position: relative;
+  bottom: 5px;
+  right: 2px;
+}
+
+.container {
+  color: white;
+  width: 50%;
+  padding-left: 100px;
+  float: left;
+  margin-top: 100px;
+}
+
+h1 {
+  font-size: 70px;
+  font-weight: 900;
+}
+
+p {
+  font-size: 12px;
+  margin-top: 20px;
+}
+button {
+  margin-top: 30px;
+  width: 130px;
+  height: 30px;
+  border-radius: 15px;
+  border: 1px solid whitesmoke;
+  font-size: 10px;
+}
+
+.heading {
+  color: whitesmoke;
+  padding: 10px;
+}
+
+.para {
+  color: whitesmoke;
+  font-size: 10px;
+  padding: 10px;
+}
+
+.first {
+  background-image: url(./s1.png);
+}
+.second {
+  background-image: url(pic-2.png);
+}
+.third {
+  background-image: url(pic-3.png);
+}
+.fourth {
+  background-image: url(s11.jpg);
+}
+
+@media screen and (min-width: 240px) and (max-width: 480px) {
+  nav {
+    width: 100%;
+  }
+
+  nav ul {
+    float: right;
+    margin-top: 30px;
+    margin-right: 10px;
+  }
+
+  ul li {
+    list-style-type: none;
+  }
+
+  ul li a {
+    text-decoration: none;
+    font-size: 12px;
+    color: whitesmoke;
+    padding: 5px;
+  }
+  .attribute1 {
+    top: -15px;
+    position: relative;
+    left: 60px;
+  }
+  .attribute2 {
+    position: relative;
+    left: 14px;
+  }
+  .attribute3 {
+    position: relative;
+    right: 42px;
+    top: 18px;
+  }
+
+  .logo img {
+    height: 50px;
+    margin-right: 150px;
+  }
+
+  .menu img {
+    height: 28px;
+  }
+
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 91%;
+    justify-content: space-between;
+    height: auto;
+    float: none;
+  }
+
+  .card {
+    width: 180px;
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 7px;
+    margin: 10px auto;
+    box-shadow: 0 0 1px 0px brown;
+  }
+
+  .para {
+    color: whitesmoke;
+    font-size: 10px;
+    padding: 10px;
+    margin-top: 0;
+  }
+
+  .card:hover {
+    position: relative;
+    bottom: 5px;
+    right: 2px;
+  }
+
+  .container {
+    color: white;
+    width: 50%;
+    padding-left: 30px;
+    float: left;
+    margin-top: 0;
+  }
+
+  h1 {
+    font-size: 40px;
+    font-weight: 900;
+  }
+
+  p {
+    font-size: 14px;
+    margin-top: 20px;
+  }
+  button {
+    margin-top: 30px;
+    width: 130px;
+    height: 30px;
+    border-radius: 15px;
+    border: 1px solid whitesmoke;
+    font-size: 10px;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 900px) {
+  .logo img {
+    margin-right: 200px;
+  }
+
+  .menu img {
+    height: 25px;
+  }
+
+  .card-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 50%;
+    justify-content: space-between;
+    height: auto;
+    float: none;
+    margin: 10px auto;
+  }
+
+  .card {
+    width: 400px;
+    margin: 5px 0;
+  }
+
+  .container {
+    color: white;
+    width: 50%;
+    float: none;
+    margin-top: 10px;
+  }
+
+  h1 {
+    font-size: 30px;
+    font-weight: 800;
+  }
+  
+  p {
+    font-size: 12px;
+    margin-top: 20px;
+  }
+  button {
+    margin-top: 30px;
+    width: 130px;
+    height: 30px;
+    border-radius: 15px;
+    border: 1px solid whitesmoke;
+    font-size: 10px;
+  }
+
+}
